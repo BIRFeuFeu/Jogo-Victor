@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0f1a24;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#game-container {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+canvas {
+  display: block;
+}
